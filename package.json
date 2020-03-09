@@ -5,9 +5,43 @@
   "main": "index.js",
   "author": "zcoderboy",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-marvel",
+    "marvel",
+    "api",
+    "navi"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  },
   "dependencies": {
     "gatsby": "^2.19.32",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "@babel/runtime": "^7.7.7",
+    "navi": "^0.14.0",
+    "react-ga": "^2.7.0",
+    "react-navi": "^0.14.1"
   }
 }

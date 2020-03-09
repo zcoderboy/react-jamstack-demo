@@ -1,2 +1,11 @@
-node_modules
+.env
+.DS_Store
+coverage/
+.vscode/ 
+.cache/
 .history
+.idea
+node_modules/
+dist/
+# Local Netlify folder
+.netlify

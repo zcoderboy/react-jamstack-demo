@@ -1,0 +1,13 @@
+{
+  "name": "react-jamstack-demo",
+  "version": "1.0.0",
+  "description": "React and Jamstack demo app using Gatsby",
+  "main": "index.js",
+  "author": "zcoderboy",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.19.32",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
